@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bc-paper: #0b0b0a;
+    --bc-surface: #14120e;
+    --bc-surface-elevated: #1a1712;
+    --bc-ink: #f2e8d4;
+    --bc-muted: #b3a17f;
+    --bc-line: #382e1e;
+    --bc-gold: #c6a15b;
+    --bc-gold-hover: #dfbd7b;
+    --bc-glow: rgba(198, 161, 91, 0.28);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    background-color: var(--bc-paper);
+    color: var(--bc-ink);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  }
+}
+
+/* Animations from brand design */
+@keyframes bc-reveal {
+  from {
+    clip-path: inset(0 0 100% 0);
+    transform: scale(1.08);
+  }
+  to {
+    clip-path: inset(0);
+    transform: scale(1);
+  }
+}
+
+@keyframes bc-drift {
+  from {
+    transform: scale(1) translateY(0);
+  }
+  to {
+    transform: scale(1.05) translateY(-1.5%);
+  }
+}
+
+.animate-reveal {
+  animation: bc-reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-drift {
+  animation: bc-drift 16s ease-in-out 1.2s infinite alternate;
+}
+
+/* Luxury button styling matching original */
+.bc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 24px;
+  border: 1px solid var(--bc-gold);
+  border-radius: 9999px;
+  background-color: var(--bc-gold);
+  color: #100d07 !important;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.bc-btn:hover {
+  background-color: var(--bc-gold-hover);
+  border-color: var(--bc-gold-hover);
+  box-shadow: 0 8px 24px var(--bc-glow);
+  transform: translateY(-2px);
+}
+
+.bc-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 24px;
+  border: 1px solid var(--bc-gold);
+  border-radius: 9999px;
+  background-color: transparent;
+  color: var(--bc-gold) !important;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.bc-btn-outline:hover {
+  background-color: rgba(198, 161, 91, 0.12);
+  border-color: var(--bc-gold-hover);
+  box-shadow: 0 8px 24px var(--bc-glow);
+  transform: translateY(-2px);
+}
+
+/* Touch improvements for mobile */
+@media (max-width: 640px) {
+  .bc-btn, .bc-btn-outline {
+    min-height: 46px;
+    padding: 0 20px;
+    font-size: 10.5px;
+  }
+}
