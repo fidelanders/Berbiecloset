@@ -26,7 +26,7 @@ export const PRODUCTS: Product[] = [
     note: 'Outfit available in sizes 10–16',
     sizes: '10–16',
     ig: 'DdHVCugAzyx',
-    image: '/assets/img/collection/look-01.jpg',
+    image: 'assets/img/collection/look-01.jpg',
     instagramUrl: `${IG_BASE}DdHVCugAzyx/`
   },
   {
@@ -36,7 +36,7 @@ export const PRODUCTS: Product[] = [
     note: 'Statement tailored printed jacket',
     sizes: '10–14',
     ig: 'DdHVf2BAh3R',
-    image: '/assets/img/collection/look-02.jpg',
+    image: 'assets/img/collection/look-02.jpg',
     instagramUrl: `${IG_BASE}DdHVf2BAh3R/`
   },
   {
@@ -46,7 +46,7 @@ export const PRODUCTS: Product[] = [
     note: 'Premium sculpted high-waist denim',
     sizes: '10–18',
     ig: 'DdZKMw9AUkE',
-    image: '/assets/img/collection/look-03.jpg',
+    image: 'assets/img/collection/look-03.jpg',
     instagramUrl: `${IG_BASE}DdZKMw9AUkE/`
   },
   {
@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
     note: 'Relaxed tailored denim cut',
     sizes: '10–14',
     ig: 'DdZMQpZAGoJ',
-    image: '/assets/img/collection/look-04.jpg',
+    image: 'assets/img/collection/look-04.jpg',
     instagramUrl: `${IG_BASE}DdZMQpZAGoJ/`
   },
   {
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
     note: 'Crisp architectural button-down',
     sizes: '10–14',
     ig: 'DdZMeI-A-Kt',
-    image: '/assets/img/collection/look-05.jpg',
+    image: 'assets/img/collection/look-05.jpg',
     instagramUrl: `${IG_BASE}DdZMeI-A-Kt/`
   },
   {
@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
     note: 'Effortless ready-to-wear ensemble',
     sizes: '10–14',
     ig: 'DdZMpblAtXp',
-    image: '/assets/img/collection/look-06.jpg',
+    image: 'assets/img/collection/look-06.jpg',
     instagramUrl: `${IG_BASE}DdZMpblAtXp/`
   },
   {
@@ -86,7 +86,7 @@ export const PRODUCTS: Product[] = [
     note: 'Structured statement denim silhouette',
     sizes: '10–14',
     ig: 'DdZk4oWAT5m',
-    image: '/assets/img/collection/look-07.jpg',
+    image: 'assets/img/collection/look-07.jpg',
     instagramUrl: `${IG_BASE}DdZk4oWAT5m/`
   },
   {
@@ -96,7 +96,7 @@ export const PRODUCTS: Product[] = [
     note: 'Contemporary two-piece coordinated set',
     sizes: '10–14',
     ig: 'DdbkHY4hZt5',
-    image: '/assets/img/collection/look-08.jpg',
+    image: 'assets/img/collection/look-08.jpg',
     instagramUrl: `${IG_BASE}DdbkHY4hZt5/`
   },
   {
@@ -107,7 +107,7 @@ export const PRODUCTS: Product[] = [
     note: 'Artisanal hand-beaded luxury two-piece',
     sizes: '10–14',
     ig: 'Dev2d0DgUAp',
-    image: '/assets/img/collection/look-09.jpg',
+    image: 'assets/img/collection/look-09.jpg',
     instagramUrl: `${IG_BASE}Dev2d0DgUAp/`
   }
 ];

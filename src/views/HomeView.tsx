@@ -70,7 +70,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105"
                 style={{
-                  backgroundImage: `linear-gradient(180deg, rgba(20,17,8,0.3) 0%, rgba(20,17,8,0.1) 40%, rgba(20,17,8,0.5) 100%), url(/assets/img/hero.jpg)`
+                  backgroundImage: `linear-gradient(180deg, rgba(20,17,8,0.3) 0%, rgba(20,17,8,0.1) 40%, rgba(20,17,8,0.5) 100%), url(assets/img/hero.jpg)`
                 }}
                 role="img"
                 aria-label="BERBIECLOSET signature edit model"
@@ -249,7 +249,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
           <div className="lg:col-span-5 relative">
             <div className="aspect-[4/5] bg-[#211b11] border border-[#382e1e] overflow-hidden">
               <img
-                src="/assets/img/about.jpg"
+                src="assets/img/about.jpg"
                 alt="BERBIECLOSET editorial"
                 className="w-full h-full object-cover filter brightness-90 contrast-105"
               />

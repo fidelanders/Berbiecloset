@@ -26,7 +26,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
         <div className="lg:col-span-6">
           <div className="aspect-[4/5] bg-[#211b11] border border-[#382e1e] overflow-hidden shadow-2xl">
             <img
-              src="/assets/img/about.jpg"
+              src="assets/img/about.jpg"
               alt="BERBIECLOSET yellow casual co-ord look"
               className="w-full h-full object-cover filter brightness-95"
             />
