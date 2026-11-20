@@ -37,11 +37,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
               aria-label="BERBIECLOSET Home"
             >
               <img
-                src="/assets/img/logo.webp"
+                src="assets/img/logo.webp"
                 alt="BERBIECLOSET crowned monogram logo"
                 className="h-12 md:h-16 w-auto object-contain transition-transform group-hover:scale-105"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = '/berbiecloset-logo.png';
+                  (e.currentTarget as HTMLImageElement).src = 'berbiecloset-logo.png';
                 }}
               />
               <span className="hidden font-serif text-lg md:text-xl font-bold tracking-tight text-[#f2e8d4]">
@@ -173,11 +173,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-[#282115]">
                 <img
-                  src="/assets/img/logo.webp"
+                  src="assets/img/logo.webp"
                   alt="BERBIECLOSET"
                   className="h-10 w-auto object-contain"
                   onError={(e) => {
-                    (e.currentTarget as HTMLImageElement).src = '/berbiecloset-logo.png';
+                    (e.currentTarget as HTMLImageElement).src = 'berbiecloset-logo.png';
                   }}
                 />
                 <button
