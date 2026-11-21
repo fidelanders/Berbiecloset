@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                 alt="BERBIECLOSET crowned monogram logo"
                 className="h-12 md:h-16 w-auto object-contain transition-transform group-hover:scale-105"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = 'berbiecloset-logo.png';
+                  (e.currentTarget as HTMLImageElement).src = 'assets/img/logo.png';
                 }}
               />
               <span className="hidden font-serif text-lg md:text-xl font-bold tracking-tight text-[#f2e8d4]">
@@ -177,7 +177,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                   alt="BERBIECLOSET"
                   className="h-10 w-auto object-contain"
                   onError={(e) => {
-                    (e.currentTarget as HTMLImageElement).src = 'berbiecloset-logo.png';
+                    (e.currentTarget as HTMLImageElement).src = 'assets/img/logo.png';
                   }}
                 />
                 <button
