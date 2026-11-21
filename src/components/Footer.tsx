@@ -30,11 +30,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               className="focus:outline-none"
             >
               <img
-                src="/assets/img/logo.webp"
+                src="assets/img/logo.webp"
                 alt="BERBIECLOSET"
                 className="h-16 w-auto object-contain"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = '/berbiecloset-logo.png';
+                  (e.currentTarget as HTMLImageElement).src = 'assets/img/logo.png';
                 }}
               />
             </button>
